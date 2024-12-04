@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=ASG Remuxer
+Comment=A GUI application to remux .h264 files to .mp4
+Exec=/usr/local/bin/asg_remuxer.py
+Icon=asg_remuxer
+Terminal=false
+Categories=Utility;

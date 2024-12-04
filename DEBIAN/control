@@ -1,0 +1,9 @@
+Package: asg-remuxer
+Version: 1.0
+Section: utils
+Priority: optional
+Architecture: all
+Depends: python3, python3-gi, gir1.2-gtk-3.0, ffmpeg
+Maintainer: Tim Mulvihill <asginvestigations@proton.me>
+Description: A GUI application to remux .h264 files to .mp4
+ A simple GUI tool to remux .h264 files to .mp4, processing multiple files concurrently. Directory containing h264 streams must be name SPYCAM

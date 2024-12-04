@@ -1,0 +1,9 @@
+# Ignore the Debian package
+*.deb
+
+# Ignore build scripts if you have them
+build.sh
+install.sh
+
+# Ignore any temporary files
+*~

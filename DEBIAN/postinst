@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Copy the desktop file to each user's desktop
+for dir in /home/*; do
+  if [ -d "$dir/Desktop" ]; then
+    cp /usr/share/applications/asg_remuxer.desktop "$dir/Desktop/"
+    chown $(stat -c "%U:%G" "$dir/Desktop/asg_remuxer.desktop") "$dir/Desktop/asg_remuxer.desktop"
+    chmod 755 "$dir/Desktop/asg_remuxer.desktop"
+  fi
+done
