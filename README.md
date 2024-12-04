@@ -22,3 +22,6 @@ Ensure the following packages are installed:
 ```bash
 sudo apt-get install -y python3 python3-gi gir1.2-gtk-3.0 ffmpeg
 
+### Download the Debian Package
+
+[Download ASG Remuxer v1.0](https://github.com/yourusername/asg-remuxer/releases/download/v1.0/asg-remuxer-1.0.deb)
